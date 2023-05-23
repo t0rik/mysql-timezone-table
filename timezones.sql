@@ -8,7 +8,7 @@ CREATE TABLE `timezones` (
 `gmt` varchar(11) NOT NULL default '',
 `offset` tinyint(2) NOT NULL default '0',
 PRIMARY KEY (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=143 ;
+) TYPE=InnoDB AUTO_INCREMENT=143 ;
 
 --
 --
